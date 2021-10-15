@@ -30,6 +30,34 @@
     <title>My Work</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Me Page">About </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work Page">Work </a>
+          </li>
+          <li><a href="/contact.html" title="Contact Iouliani">Contact </a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -53,5 +81,41 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="" class="btn btn-branding mt-3">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:iouliani.pispa@gmail.com" class="email-link"
+          >iouliani.pispa@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/julie_pispa"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.github.com/juliepispa"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/iouliani.pispa"
+          target="_blank"
+          title="Facebook Profile"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
